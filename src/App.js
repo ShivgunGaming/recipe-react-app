@@ -12,8 +12,8 @@ const App = () => {
     const [selectedRecipe, setSelectedRecipe] = useState(null);
 
     const searchRecipes = async (query) => {
-        const APP_ID = 'dd4ddb88'; // Replace with your Edamam app ID
-        const APP_KEY = '816788478ff0b00ce5efc87d06cf2c4f'; // Replace with your Edamam app key
+        const APP_ID = ''; // Replace with your Edamam app ID
+        const APP_KEY = ''; // Replace with your Edamam app key
         const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`);
         const data = await response.json();
         setRecipes(data.hits);
