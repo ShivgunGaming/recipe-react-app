@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import './tailwind.css';
+
+body {
+  @apply m-0 font-sans antialiased;
+  background: linear-gradient(to bottom, #f8f9fa, #e0e0e0);
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  @apply font-mono;
+}
